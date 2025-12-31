@@ -1,0 +1,23 @@
+{
+  "lastPromotionId": 1002,
+  "logs": [
+    {
+      "id": "PR-1001",
+      "member": "1170628068335960074",
+      "from": "Junior Developer",
+      "to": "Senior Developer",
+      "reason": "test'",
+      "by": "1379054674027479090",
+      "time": "2025-12-31T09:09:58.556Z"
+    },
+    {
+      "id": "PR-1002",
+      "member": "1170628068335960074",
+      "from": "Senior Developer",
+      "to": "Junior Developer",
+      "reason": "test",
+      "by": "1379054674027479090",
+      "time": "2025-12-31T09:10:49.094Z"
+    }
+  ]
+}
