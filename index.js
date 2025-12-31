@@ -120,3 +120,12 @@ client.on("interactionCreate", async interaction => {
 client.login(process.env.TOKEN)
   .then(() => console.log(`✅ Bot logged in as ${client.user.tag}`))
   .catch(err => console.error("❌ Login failed:", err));
+
+// (Paste this at the *very end* of index.js)
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => res.send("Promotion Manager Bot is online!"));
+app.listen(process.env.PORT || 3000, () =>
+  console.log("🌐 Express server running")
+);
